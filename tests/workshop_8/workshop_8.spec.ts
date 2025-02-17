@@ -21,7 +21,7 @@ test.describe('Sample Test', () =>{
         
         expect(await pageObject.text(pageObject.displayFirstName)).toBe('Binay')
         expect(await pageObject.text(pageObject.displayAge)).toBe('30')
-        expect(await pageObject.text(pageObject.displayIsStudent)).toBe('yes');
+        expect(await pageObject.text(pageObject.displayIsStudent)).toBe('Yes');
 
     });
 })
