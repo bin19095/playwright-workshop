@@ -1,8 +1,9 @@
 import { expect, test} from '@playwright/test';
-
+ // //https://gj3d5w-3001.csb.app/
 test.describe('When the user visits the page', () =>{
     test.beforeEach( async ({page}) => {
         await page.goto('http://localhost:5173/')
+       
     });
     test.describe('and creates a new task', () => {
         let taskName: string;
